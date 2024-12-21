@@ -120,19 +120,19 @@ const View = () => {
         <div className="max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-2xl mb-8">
           {/* About Section */}
           <div className="mb-4">
-            <div className="flex items-center justify-between p-2 rounded-t-2xl bg-gradient-to-r from-gren">
+            <div className="flex items-center justify-between p-2 rounded-t-2xl bg-gradient-to-r from-yelowe">
             <h2 className="text-2xl font-title font-semibold text-gray-800 pl-10">
               A Little About Me
               </h2>
               <div className="pr-6 mt-1">
-              <button className="flex items-center px-6 py-1 font-title font-semibold text-demo bg-white border border-demo rounded-lg hover:bg-green-600 focus:outline-none">
+              <button className="flex items-center px-6 py-1 font-title font-semibold text-demo bg-white border border-demo rounded-lg focus:outline-none">
               Follow
               <span className="ml-2 text-xl font-bold">+</span>
               </button>
               </div>
               </div>
           <div className="pl-4 pr-4">
-          <p className="text-md p-2 text-gray-400 mb-3 pl-2 pt-4 font-title font-semibold">
+          <p className="text-md p-2 text-gray-400 mb-3 pl-2 pt-8 font-title font-semibold">
               Hello! I am Dr. Bruce Willis, a Gynaecologist at Sanjivni Hospital, Surat. I love to work with my hospital staff and senior doctors. Completed my graduation in Gynaecologist Medicine from the
               <button className=" text-gray-700 font-title text-semibold pt-4 text-md ">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  <u>Read More</u></button>
             </p>
@@ -191,50 +191,130 @@ const View = () => {
   </div>
 
           {/* Specialization Section */}
-          <div className="flex p-6 gap-6 max-w-xl mx-auto bg-white border border-gray-300 shadow-md rounded-lg">
+          <div className="flex gap-6 max-w-xl mx-auto bg-white border border-gray-300 shadow-md rounded-2xl mb-8">
           <div className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">I Specialize In</h2>
-            <div className="grid grid-cols-2 gap-3">
-              <span className="px-4 py-2 bg-green-100 text-green-700 rounded">Women's Health</span>
-              <span className="px-4 py-2 bg-green-100 text-green-700 rounded">Skin Care</span>
-              <span className="px-4 py-2 bg-green-100 text-green-700 rounded">Immunity</span>
-              <span className="px-4 py-2 bg-green-100 text-green-700 rounded">Hair Care</span>
-            </div>
+          <div className="flex items-center justify-between p-3 rounded-t-2xl bg-gradient-to-r from-yelowe">
+          <h2 className="text-2xl font-title font-semibold text-gray-800 pl-10">I Specialize In</h2>
+          </div>
+          <div className="grid grid-cols-5 gap-4 pl-8">
+  {/* Women's Health */}
+  <div className="flex flex-col items-center pt-6 bg-white ">
+    <img
+      src="src\assets\wh.svg"
+      alt="Women's Health"
+      className="w-24 h-24"
+    />
+    <span className="text-black font-medium font-title whitespace-nowrap">Women's Health</span>
+  </div>
+
+  {/* Skin Care */}
+  <div className="flex flex-col items-center pt-6 bg-white ">
+    <img
+      src="src\assets\sc.svg"
+      alt="Skin Care"
+      className="w-24 h-24"
+    />
+    <span className="text-black font-medium font-title whitespace-nowrap">Skin Care</span>
+  </div>
+
+  {/* Immunity */}
+  <div className="flex flex-col items-center pt-6 bg-white ">
+    <img
+      src="src\assets\imm.svg"
+      alt="Immunity"
+      className="w-24 h-24"
+    />
+    <span className="text-black font-medium font-title whitespace-nowrap0">Immunity</span>
+  </div>
+
+  {/* Hair Care */}
+  <div className="flex flex-col items-center pt-6 bg-white">
+    <img
+      src="src\assets\hc.svg"
+      alt="Hair Care"
+      className="w-24 h-24"
+    />
+    <span className="text-black font-medium font-title whitespace-nowrap">Hair Care</span>
+  </div>
+</div>
+
           </div>
           </div>
 
           {/* Concerns Section */}
-          <div className="flex p-6 gap-6 max-w-xl mx-auto bg-white border border-gray-300 shadow-md rounded-lg">
+          <div className="flex gap-6 max-w-xl mx-auto bg-white border border-gray-300 shadow-md rounded-2xl mb-8">
           <div className="mb-6 ">
-            <h2 className="text-xl font-semibold mb-2">The Concerns I Treat</h2>
-            <div className="grid grid-cols-2 gap-3">
-              {["Skin Treatment", "Pregnancy", "Period Doubts", "Endometriasis", "Pelvic Pain", "Ovarian Cysts"].map((item) => (
-                <span
-                  key={item}
-                  className="px-4 py-2 bg-gray-100 text-gray-700 rounded"
-                >
-                  {item}
-                </span>
-              ))}
+          <div className="flex items-center justify-between p-3 rounded-t-2xl bg-gradient-to-r from-yelowe">
+          <h2 className="text-2xl font-title font-semibold text-gray-800 pl-10">The Concerns I Treat</h2>
+          </div>
+          <section className="px-8 py-2 pt-6 bg-white">
+          <div className="flex flex-wrap justify-start gap-3">
+          {/* Filter Tag */}
+          <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+          Skin Treatment
+              </div>
+              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+                Pregnancy
+              </div>
+              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+                Period Doubts
+              </div>
+              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+                Endometriosis
+              </div>
+              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+                Pelvic Pain
+              </div>
+              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+                Ovarian Cysts
+              </div>
+              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+                + 5 More
+              </div>
             </div>
+          </section>
           </div>
           </div>
 
           {/* Work Experience */}
-          <div className="flex p-6 gap-6 max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-lg">
-            <h2 className="text-xl font-semibold mb-2">My Work Experience</h2>
-            <p className="text-sm">
-              I have been in practice for: <strong>7+ years</strong>
-            </p>
-            <ul className="list-disc list-inside mt-3">
-              <li>
-                <span className="font-medium">Midtown Medical Clinic</span> (2016-PRESENT)
-              </li>
-              <li>
-                <span className="font-medium">Midtown Medical Clinic</span> (2010-2015)
-              </li>
-            </ul>
-          </div>
+          <div className="p-6 max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-lg">
+  <h2 className="text-xl font-semibold mb-4">My Work Experience</h2>
+  <p className="text-sm">
+    I have been in practice for: <strong className="text-green-600">7+ years</strong>
+  </p>
+  <hr className="my-4 border-gray-300" />
+  <ul className="space-y-4">
+    <li className="flex items-center justify-between">
+      <div className="flex items-center">
+        <img
+          src="path-to-your-image.png" // Replace with the actual image path
+          alt="Icon"
+          className="w-10 h-10 mr-4"
+        />
+        <div>
+          <span className="font-medium block">Midtown Medical Clinic</span>
+          <span className="text-gray-500 text-sm">Senior doctor</span>
+        </div>
+      </div>
+      <div className="text-sm text-gray-600">2016 - PRESENT</div>
+    </li>
+    <li className="flex items-center justify-between">
+      <div className="flex items-center">
+        <img
+          src="path-to-your-image.png" // Replace with the actual image path
+          alt="Icon"
+          className="w-10 h-10 mr-4"
+        />
+        <div>
+          <span className="font-medium block">Midtown Medical Clinic</span>
+          <span className="text-gray-500 text-sm">Senior doctor</span>
+        </div>
+      </div>
+      <div className="text-sm text-gray-600">2010 - 2015</div>
+    </li>
+  </ul>
+</div>
+
         </div>
 
         {/* Right Section */}
