@@ -117,7 +117,7 @@ const View = () => {
       <div className="flex justify-center bg-white gap-10 ">
         <div>
         {/* Left Section */}
-        <div className="max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-2xl mb-8">
+        <div className="max-w-xl bg-white shadow-md border border-gray-300 rounded-2xl mb-8">
           {/* About Section */}
           <div className="mb-4">
             <div className="flex items-center justify-between p-2 rounded-t-2xl bg-gradient-to-r from-yelowe">
@@ -188,7 +188,7 @@ const View = () => {
 </div>
 
 
-  </div>
+        </div>
 
           {/* Specialization Section */}
           <div className="flex gap-6 max-w-xl mx-auto bg-white border border-gray-300 shadow-md rounded-2xl mb-8">
@@ -242,7 +242,7 @@ const View = () => {
           </div>
 
           {/* Concerns Section */}
-          <div className="flex gap-6 max-w-xl mx-auto bg-white border border-gray-300 shadow-md rounded-2xl mb-8">
+          <div className="flex gap-6 max-w-xl  bg-white border border-gray-300 shadow-md rounded-2xl mb-8">
           <div className="mb-6 ">
           <div className="flex items-center justify-between p-3 rounded-t-2xl bg-gradient-to-r from-yelowe">
           <h2 className="text-2xl font-title font-semibold text-gray-800 pl-10">The Concerns I Treat</h2>
@@ -250,25 +250,25 @@ const View = () => {
           <section className="px-8 py-2 pt-6 bg-white">
           <div className="flex flex-wrap justify-start gap-3">
           {/* Filter Tag */}
-          <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+          <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
           Skin Treatment
               </div>
-              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+              <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
                 Pregnancy
               </div>
-              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+              <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
                 Period Doubts
               </div>
-              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+              <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
                 Endometriosis
               </div>
-              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+              <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
                 Pelvic Pain
               </div>
-              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+              <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
                 Ovarian Cysts
               </div>
-              <div className="flex items-center px-4 py-2 text-md text-black bg-gren border rounded-full shadow-sm">
+              <div className="flex items-center px-4 py-2 text-md text-demo font-bold font-title bg-gray-100 border rounded-full shadow-sm">
                 + 5 More
               </div>
             </div>
@@ -277,102 +277,287 @@ const View = () => {
           </div>
 
           {/* Work Experience */}
-          <div className="p-6 max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-lg">
-  <h2 className="text-xl font-semibold mb-4">My Work Experience</h2>
-  <p className="text-sm">
-    I have been in practice for: <strong className="text-green-600">7+ years</strong>
+          <div className=" max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-2xl mb-8 pb-6">
+          <div className="flex items-center justify-between p-3 rounded-t-2xl bg-gradient-to-r from-yelowe">
+          <h2 className="text-2xl font-title font-semibold text-gray-800 pl-10">My Work Experience</h2>
+          </div>
+  <p className="text-lg font-title font-bold text-demo pt-6 pl-6">
+    I HAVE BEEN IN PRACTICE FOR : <strong className="text-demo">7+ YEARS</strong>
   </p>
-  <hr className="my-4 border-gray-300" />
-  <ul className="space-y-4">
-    <li className="flex items-center justify-between">
+  <hr className="my-4 ml-6 mr-36 border-gray-300" />
+  <ul className="space-y-4 pl-8  ">
+    <li className="flex items-center justify-between pr-24">
       <div className="flex items-center">
         <img
-          src="path-to-your-image.png" // Replace with the actual image path
+          src="src\assets\hos.svg" 
           alt="Icon"
-          className="w-10 h-10 mr-4"
+          className="w-12 h-12 mr-5"
         />
         <div>
           <span className="font-medium block">Midtown Medical Clinic</span>
-          <span className="text-gray-500 text-sm">Senior doctor</span>
+          <span className="text-gray-400 text-sm font-semibold">Senior doctor</span>
         </div>
       </div>
-      <div className="text-sm text-gray-600">2016 - PRESENT</div>
+      <div className="text-md pb-6 text-gray-500">2016-PRESENT</div>
     </li>
-    <li className="flex items-center justify-between">
+    <li className="flex items-center justify-between pr-28">
       <div className="flex items-center">
         <img
-          src="path-to-your-image.png" // Replace with the actual image path
+          src="src\assets\hos.svg" 
           alt="Icon"
-          className="w-10 h-10 mr-4"
+          className="w-12 h-12 mr-5"
         />
         <div>
           <span className="font-medium block">Midtown Medical Clinic</span>
-          <span className="text-gray-500 text-sm">Senior doctor</span>
+          <span className="text-gray-400 text-sm font-semibold">Senior doctor</span>
         </div>
       </div>
-      <div className="text-sm text-gray-600">2010 - 2015</div>
+      <div className="text-md pb-6 text-gray-500">2010-2015</div>
     </li>
   </ul>
-</div>
+          </div>
 
+          {/* Featured Review */}
+          <div className="max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-2xl mb-24 pb-6">
+          <div className="flex items-center justify-between p-3 rounded-t-2xl bg-gradient-to-r from-yelowe">
+          <h2 className="text-2xl font-title font-semibold text-gray-800 pl-10">Featured Reviews (102)</h2>
+          </div>
+        <div className="space-y-4">
+        {/* Review 1 */}
+        <div className="flex flex-col bg-gray-50 p-8 border m-6 rounded-lg shadow-sm">
+        <div className="flex justify-between items-start">
+        <div className="flex items-center">
+          <img
+            src="src\assets\rev.svg" 
+            alt="User Avatar"
+            className="w-14 h-14 rounded-full mr-4"
+          />
+          <div>
+            <h3 className="font-semibold text-xl font-title">Alicent Hightower</h3>
+            <p className="text-gray-400 text-sm font-semibold">Consulted for Skin care</p>
+          </div>
+        </div>
+        <p className="text-md text-gray-400">20 January 2023</p>
+        </div>
+        <div className="flex items-center mt-2">
+        <span className="ml-1">⭐⭐⭐⭐⭐</span>
+        </div>
+        <p className="text-sm font-medium mt-2 text-gray-700">
+        Might be bit early to confirm but yes I can see noticeable difference in
+        my hairfall. Will write again after using it for longer periods.
+        </p>
+        </div>
+          {/* Review 2 */}
+        <div className="flex flex-col bg-gray-50 p-8 m-6 border rounded-lg shadow-sm">
+          <div className="flex justify-between items-start">
+        <div className="flex items-center">
+          <img
+            src="src\assets\rev.svg" 
+            alt="User Avatar"
+            className="w-14 h-14 rounded-full mr-4"
+          />
+          <div>
+            <h3 className="font-semibold text-xl font-title">Alicent Hightower</h3>
+            <p className="text-gray-400 text-sm font-semibold">Consulted for Pregnancy</p>
+          </div>
+          </div>
+        <p className="text-md text-gray-400">20 January 2023</p>
+          </div>
+          <div className="flex items-center mt-2">
+        <span className="ml-1">⭐⭐⭐⭐⭐</span>
+        </div>
+          <p className="text-sm font-medium mt-2 text-gray-700">
+        Might be bit early to confirm but yes I can see noticeable difference in
+        my hairfall. Will write again after using it for longer periods.
+        </p>
+        </div>
+        </div>
+        </div>
         </div>
 
         {/* Right Section */}
-        <div className=" bg-white shadow-md rounded-lg p-8 border border-gray-300">
-          <h2 className="text-xl font-semibold mb-4">Appointment Fee</h2>
-          <p className="text-lg text-green-700 font-bold">₹699.00</p>
+        <div className="bg-white w-full max-w-xl ">
+        {/* Appointment Fee */}
+        <div className="border border-gray-300 shadow-md p-6 rounded-3xl">
+  <div className="flex justify-between items-center p-6 py-4 border rounded-2xl border-gray-300">
+  <h2 className="text-lg font-semibold font-title">Appointment Fee</h2>
+  <p className="text-xl font-semibold text-demo">₹699.00</p>
+</div>
 
-          {/* Mode of Session */}
-          <div className="mt-6">
-            <h3 className="text-lg font-semibold mb-2">Select your mode of session</h3>
-            <div className="flex space-x-3">
-              <button className="px-4 py-2 border border-gray-300 rounded">In-Clinic</button>
-              <button className="px-4 py-2 bg-green-500 text-white rounded">Video</button>
-              <button className="px-4 py-2 border border-gray-300 rounded">Chat</button>
-            </div>
-          </div>
 
-          {/* Time Slot */}
-          <div className="mt-6">
-            <h3 className="text-lg font-semibold mb-2">Pick a time slot</h3>
-            <div className="flex space-x-3">
-              {["Mon, 10 Oct", "Tue, 11 Oct", "Wed, 12 Oct"].map((date) => (
-                <button key={date} className="px-4 py-2 border border-gray-300 rounded">
-                  {date}
-                </button>
-              ))}
-            </div>
+  {/* Mode of Session */}
+  <div className="mt-10">
+  <div className="flex items-center mb-10">
+    <h3 className="text-xl font-bold font-title mx-2 whitespace-nowrap">Select your mode of session</h3>
+    <div className="flex-1 h-px bg-gray-300"></div>
+  </div>
+  <div className="flex space-x-6">
+    {/* In-Clinic Option */}
+    <button className="flex-1 py-4 font-title  border border-gray-300 rounded-lg text-center">
+      <p className="text-md font-bold text-gray-700">In-Clinic</p>
+      <p className="text-sm font-semibold text-gray-500">45 Mins</p>
+    </button>
 
-            <div className="mt-4">
-              <h4 className="text-md font-medium">Morning</h4>
-              <div className="grid grid-cols-3 gap-3 mt-2">
-                {["09:00 AM", "09:30 AM", "10:00 AM"].map((time) => (
-                  <button
-                    key={time}
-                    className="px-4 py-2 border border-gray-300 rounded"
-                  >
-                    {time}
-                  </button>
-                ))}
-              </div>
+    {/* Video Option (Selected) */}
+    <button className="flex-1 py-4 font-title  border border-demo bg-gren rounded-lg text-center">
+    <div className="flex items-center pl-14">
+  <p className="text-md font-bold text-demo">Video</p>
+  <img
+    src="src\assets\tick.svg" 
+    alt="Tick Icon"
+    className="w-4 h-4 ml-2"
+    />
+    </div>
 
-              <h4 className="text-md font-medium mt-4">Evening</h4>
-              <div className="grid grid-cols-3 gap-3 mt-2">
-                {["04:00 PM", "04:15 PM", "04:30 PM"].map((time) => (
-                  <button
-                    key={time}
-                    className="px-4 py-2 border border-gray-300 rounded"
-                  >
-                    {time}
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
+      <p className="text-sm font-semibold text-gray-500">45 Mins</p>
+    </button>
 
-          <button className="w-full mt-6 py-2 bg-green-600 text-white font-medium rounded">
-            Make An Appointment
+    {/* Chat Option */}
+    <button className="flex-1 py-4 font-title  border border-gray-300 rounded-lg text-center">
+      <p className="text-md font-bold text-gray-700">Chat</p>
+      <p className="text-sm font-semibold text-gray-500">10 Mins</p>
+    </button>
+  </div>
+</div>
+
+
+  {/* Time Slot */}
+  <div className="mt-10">
+  <div className="flex items-center mb-8 pr-2">
+  <h3 className="text-xl font-bold font-title mx-2 whitespace-nowrap">Pick a Time Slot</h3>
+  <div className="flex-1 h-px bg-gray-300"></div>
+  <div className="flex items-center justify-center h-10 w-10 rounded-full border border-gray-400 ml-2">
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="h-6 w-6 text-black"
+    >
+      <path
+        d="M3 10H21M7 3V5M17 3V5M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+        stroke="#000000"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>
+    </svg>
+  </div>
+</div>
+
+<div className="flex items-center justify-between border border-gray-300 rounded-2xl px-4 py-6 max-w-xl">
+  {/* Left Arrow */}
+  <button className="text-gray-600 hover:text-black">
+  <svg
+    fill="#808080"
+    version="1.1"
+    id="Layer_1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 100 100"
+    enableBackground="new 0 0 100 100"
+    xmlSpace="preserve"
+    className="w-8 h-8"
+  >
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+      <g>
+        <path
+          d="M44.942,50.412l14.037-15.487c0.742-0.818,0.68-2.083-0.139-2.824c-0.817-0.742-2.083-0.679-2.824,0.139L40.784,49.044 c-0.409,0.451-0.565,1.038-0.493,1.598c-0.016,0.564,0.196,1.131,0.647,1.539L57.74,67.412c0.383,0.348,0.864,0.519,1.344,0.519 c0.545,0,1.087-0.222,1.482-0.657c0.741-0.818,0.68-2.083-0.139-2.824L44.942,50.412z"
+        ></path>
+        <path
+          d="M84.133,49.756c0-18.448-15.01-33.457-33.458-33.457S17.218,31.308,17.218,49.756c0,18.449,15.009,33.458,33.457,33.458 S84.133,68.205,84.133,49.756z M50.675,79.214c-16.243,0-29.457-13.215-29.457-29.458c0-16.242,13.214-29.457,29.457-29.457 c16.243,0,29.458,13.215,29.458,29.457C80.133,65.999,66.918,79.214,50.675,79.214z"
+        ></path>
+      </g>
+    </g>
+  </svg>
+</button>
+
+
+  {/* Slot Buttons */}
+  <div className="flex justify-center items-center gap-x-2">
+    <button className="py-4 px-6 border border-demo rounded-2xl bg-gren text-demo font-title font-bold text-md hover:shadow-md whitespace-nowrap">
+      Mon, 10 Oct
+      <div className="text-md font-semibold text-gray-500">10 slots</div>
+    </button>
+    <button className="py-4 px-6 border border-gray-300 rounded-2xl bg-white text-black text-md font-semibold hover:shadow-md whitespace-nowrap">
+      Tue, 11 Oct
+      <div className="text-md font-semibold text-red-600">02 slots</div>
+    </button>
+    <button className="py-4 px-6 border border-gray-300 rounded-2xl bg-white text-black text-md font-semibold hover:shadow-md whitespace-nowrap">
+      Wed, 12 Oct
+      <div className="text-md font-semibold text-yellow-500">05 slots</div>
+    </button>
+  </div>
+
+  {/* Right Arrow */}
+  <button className="text-gray-600 hover:text-black ">
+  <svg
+    fill="#808080"
+    version="1.1"
+    id="Layer_1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 100 100"
+    enable-background="new 0 0 100 100"
+    xml:space="preserve"
+    transform="rotate(180)"
+    className="w-8 h-8  "
+  >
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+      <g>
+        <path d="M44.942,50.412l14.037-15.487c0.742-0.818,0.68-2.083-0.139-2.824c-0.817-0.742-2.083-0.679-2.824,0.139L40.784,49.044 c-0.409,0.451-0.565,1.038-0.493,1.598c-0.016,0.564,0.196,1.131,0.647,1.539L57.74,67.412c0.383,0.348,0.864,0.519,1.344,0.519 c0.545,0,1.087-0.222,1.482-0.657c0.741-0.818,0.68-2.083-0.139-2.824L44.942,50.412z"></path>
+        <path d="M84.133,49.756c0-18.448-15.01-33.457-33.458-33.457S17.218,31.308,17.218,49.756c0,18.449,15.009,33.458,33.457,33.458 S84.133,68.205,84.133,49.756z M50.675,79.214c-16.243,0-29.457-13.215-29.457-29.458c0-16.242,13.214-29.457,29.457-29.457 c16.243,0,29.458,13.215,29.458,29.457C80.133,65.999,66.918,79.214,50.675,79.214z"></path>
+      </g>
+    </g>
+  </svg>
+</button>
+
+</div>
+
+
+    <div className="mt-4">
+      {/* Morning Slots */}
+      <h4 className="text-lg font-bold pl-6 pt-4 font-title ">Morning</h4>
+      <div className="grid grid-cols-4 gap-3 mt-3">
+        {["09:00 AM", "09:30 AM", "10:00 AM", "10:15 AM", "10:45 AM", "11:00 AM"].map((time, index) => (
+          <button
+            key={time}
+            className={`py-5 px-3 border border-gray-300 rounded-3xl text-md ${
+              index === 5 ? "bg-demo text-white" : ""
+            }`}
+          >
+            {time}
           </button>
+        ))}
+      </div>
+
+      {/* Evening Slots */}
+      <h4 className="text-lg font-bold pl-6 pt-4 font-title ">Evening</h4>
+      <div className="grid grid-cols-4 gap-3 mt-3">
+        {["04:00 PM", "04:15 PM", "04:30 PM", "04:45 PM", "05:15 PM"].map((time, index) => (
+          <button
+            key={time}
+            className={`py-5 px-3 border border-gray-300 rounded-3xl text-md ${
+              index === 5 ? "bg-demo text-white" : ""
+            }`}
+          >
+            {time}
+          </button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  {/* Submit Button */}
+  <div className="flex justify-center items-center">
+  <button className=" mt-6 py-4 px-32 bg-demo text-white font-semibold text-xl font-title rounded-lg">
+    Make An Appointment
+    </button>
+    </div>
+        </div>
         </div>
         </div>
       </div>

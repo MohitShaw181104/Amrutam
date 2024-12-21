@@ -11,7 +11,7 @@ export default {
         'gren': '#E6F4EA',
         'demo': '#3A643B',
         'whte': "#FFFBF2",
-        'yelowe': "#FDF8E5",
+        'yelowe': "#e8f5d4",
             },
       fontFamily: {
         title:["Quicksand", "serif"],
