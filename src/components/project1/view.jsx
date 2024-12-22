@@ -316,7 +316,6 @@ const View = () => {
     </li>
   </ul>
           </div>
-
           {/* Featured Review */}
           <div className="max-w-xl mx-auto bg-white shadow-md border border-gray-300 rounded-2xl mb-24 pb-6">
           <div className="flex items-center justify-between p-3 rounded-t-2xl bg-gradient-to-r from-yelowe">
