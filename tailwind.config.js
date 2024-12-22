@@ -12,6 +12,7 @@ export default {
         'demo': '#3A643B',
         'whte': "#FFFBF2",
         'yelowe': "#e8f5d4",
+        'gre': "#C3D0C4",
             },
       fontFamily: {
         title:["Quicksand", "serif"],
