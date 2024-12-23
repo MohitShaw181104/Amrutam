@@ -248,7 +248,7 @@ const Hero = () => {
 </section>
 
       {/* Doctor Cards */}
-      <section className="px-80 py-8 bg-white">
+      <section className="px-60 py-8 bg-white">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {doctors.map((doctor, index) => (
       <div

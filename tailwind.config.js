@@ -16,6 +16,7 @@ export default {
             },
       fontFamily: {
         title:["Quicksand", "serif"],
+        hindi:["Inknut Antiqua", "serif"],
       },
       fontSize: {
         'vs': '.65rem',
