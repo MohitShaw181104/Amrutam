@@ -548,9 +548,40 @@ const Home = () => {
 </div>
 
 
-    <div className='bg-yelow'>
-
+    <div className="bg-yelow h-screen py-10">
+    <div className="max-w-7xl mx-auto px-4">
+        <h1 className="text-4xl font-bold text-center text-green-800">Amrutam Home App</h1>
+        <p className="text-lg text-center text-gray-600 mt-4">
+            The Amrutam Home App is your one-stop app for all things Ayurveda! Apart from mimicking the significant characteristics of our website, this app offers a wide range of additional features.
+        </p>
+        <p className="text-xl text-center font-semibold text-green-700 mt-6">
+            Get A Diet & Lifestyle Consultation With Ayurvedic Experts Across The Globe
+        </p>
+        <div className="flex justify-center mt-8">
+            <img
+                src="your-image-source.png"
+                alt="Amrutam Home App"
+                className="max-w-xs md:max-w-md"
+            />
+        </div>
+        <div className="flex justify-center mt-8 space-x-4">
+            <a
+                href="#"
+                className="bg-black text-white px-4 py-2 rounded-md flex items-center space-x-2"
+            >
+                <img src="play-store-icon.png" alt="Play Store" className="h-5" />
+                <span>Get it on Google Play</span>
+            </a>
+            <a
+                href="#"
+                className="bg-black text-white px-4 py-2 rounded-md flex items-center space-x-2"
+            >
+                <img src="app-store-icon.png" alt="App Store" className="h-5" />
+                <span>Download on the App Store</span>
+            </a>
+        </div>
     </div>
+</div>
 
 
 </div>
