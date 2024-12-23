@@ -13,14 +13,14 @@ const Hero = () => {
       imgSrc: 'src/assets/doctorimg.svg',
     },
     {
-      name: 'Dr. Bruce Willis',
+      name: 'Dr. Prerna Narang',
       specialization: 'Gynecologist Specialist',
       experience: '10 years of Experience',
       languages: 'Speaks: English, Gujarati, Tamil',
       rating: '4.7',
       videoConsultation: '₹1000',
       chatConsultation: '₹200',
-      imgSrc: 'src/assets/doctor2.svg',
+      imgSrc: 'src/assets/doctorimg.svg',
     },
     {
       name: 'Dr. Prerna Narang',

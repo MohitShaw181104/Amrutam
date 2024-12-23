@@ -548,7 +548,7 @@ const Home = () => {
 </div>
 
 
-    <div className="bg-yelow h-screen py-10">
+    <div className="bg-yelow py-10">
     <div className="max-w-7xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-center text-green-800">Amrutam Home App</h1>
         <p className="text-lg text-center text-gray-600 mt-4">
