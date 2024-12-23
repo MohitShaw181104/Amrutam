@@ -471,26 +471,38 @@ const Home = () => {
           </div>
 
           {/* Doctor Details */}
-          <h3 className="text-lg pt-4 font-bold font-title text-gray-800 pb-2">
-            {doctor.name}
-          </h3>
-          <h3 className="text-sm font-bold font-title text-gray-500 pb-2">
-            {doctor.prof}
-          </h3>
-          <div className="flex justify-center items-left pb-6">
-            <div className="space-y-2">
-              <div className="flex items-center space-x-2">
-                <p className="text-sm text-gray-600 font-title font-semibold">
-                  {doctor.experience}
-                </p>
-              </div>
-              <div className="flex items-center space-x-2 px-8 pb-4">
-                <p className="text-sm text-demo font-semibold bg-gre bg-opacity-35 rounded-2xl px-2 py-1 flex items-center">
-                  {doctor.specialization}
-                </p>
-              </div>
-            </div>
-          </div>
+      <h3 className="text-lg pt-4 font-bold font-title text-gray-800 pb-2">
+          {doctor.name}
+        </h3>
+        <h3 className="text-sm font-bold font-title text-gray-500 pb-2">
+          {doctor.prof}
+        </h3>
+        <div className='flex justify-center items-left pb-6'>
+        <div className='space-y-2 '>
+        <div className="flex items-center space-x-2">
+        <svg className="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg fill="#3A643B" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M197.769 791.767l60.672-286.853c2.341-11.066-4.733-21.934-15.799-24.275s-21.934 4.733-24.275 15.799l-60.672 286.853c-2.341 11.066 4.733 21.934 15.799 24.275s21.934-4.733 24.275-15.799zm571.063-286.786l61.778 287.068c2.38 11.058 13.273 18.093 24.33 15.713s18.093-13.273 15.713-24.33l-61.778-287.068c-2.38-11.058-13.273-18.093-24.33-15.713s-18.093 13.273-15.713 24.33z"></path><path d="M967.45 386.902L535.9 208.126c-10.609-4.399-30.569-4.442-41.207-.088L57.821 386.901l436.881 178.857c10.624 4.355 30.583 4.313 41.207-.085L967.45 386.901zM551.583 603.516c-20.609 8.533-51.787 8.599-72.409.145L24.437 417.494c-32.587-13.359-32.587-47.847.009-61.188l454.73-186.174c20.641-8.448 51.818-8.382 72.407.156l448.836 185.936c32.466 13.442 32.466 47.913.004 61.354l-448.84 185.938zm288.673 166.569c-98 57.565-209.669 88.356-325.888 88.356-116.363 0-228.162-30.866-326.246-88.564-9.749-5.735-22.301-2.481-28.036 7.268s-2.481 22.301 7.268 28.036c104.336 61.377 223.297 94.22 347.014 94.22 123.564 0 242.386-32.763 346.634-93.998 9.753-5.729 13.015-18.279 7.286-28.032s-18.279-13.015-28.032-7.286z"></path><path d="M983.919 383.052v296.233c0 11.311 9.169 20.48 20.48 20.48s20.48-9.169 20.48-20.48V383.052c0-11.311-9.169-20.48-20.48-20.48s-20.48 9.169-20.48 20.48z"></path></g></svg>        </svg>
+        <p className="text-sm text-gray-600 font-title font-semibold">{doctor.experience}</p>
+    </div>
+    <div className="flex items-center space-x-2 px-8 pb-4">
+        
+    <p className="text-sm text-demo font-semibold bg-gre bg-opacity-35 rounded-2xl px-2 py-1 flex items-center">
+  <svg className="h-5 w-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+      <g id="SVGRepo_iconCarrier">
+        <g id="Interface / Link">
+          <path id="Vector" d="M9.1718 14.8288L14.8287 9.17192M7.05086 11.293L5.63664 12.7072C4.07455 14.2693 4.07409 16.8022 5.63619 18.3643C7.19829 19.9264 9.7317 19.9259 11.2938 18.3638L12.7065 16.9498M11.2929 7.05L12.7071 5.63579C14.2692 4.07369 16.8016 4.07397 18.3637 5.63607C19.9258 7.19816 19.9257 9.73085 18.3636 11.2929L16.9501 12.7071" stroke="#3A643B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+      </g>
+    </svg>
+  </svg>
+  {doctor.specialization}
+</p>
+    </div>
+    </div>
+</div>
 
           {/* Book a Session Button */}
           <div className="absolute bottom-0 left-0 w-full">
