@@ -6,5 +6,5 @@ An Ayurvedic products website designed to enhance health and wellness for both w
 for installing this file:
 run the following command:
 
--npm i
+-npm i <br/>
 -npm run dev
