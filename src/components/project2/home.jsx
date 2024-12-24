@@ -104,15 +104,22 @@ const Home = () => {
         </div>
       </div>
 
-      {/* New Section */}
-      <div className="bg-white py-16 px-8">
+      {/* yoga Section */}
+      <div className="h-screen w-full">
+    <img
+        src="src\assets\\yoga.png"
+        alt="Full Screen Background"
+        className="w-full h-500px object-cover"
+    />
+    </div>
+      {/* <div className="bg-white py-16 px-8">
       <h2 className="text-5xl text-center font-bold text-demo mb-4 underline decoration-gre">Discover Ayurveda's Magic With Us</h2>
       <h1 className="text-center text-xl text-gray-500 max-w-4xl mx-auto mb-12 pt-4">
         Ayurvedic treatment aims to balance your body and mind, bringing harmony <br /> and vitality. It's like a journey to better health using ancient wisdom, <br /> a totally effective approach for a better life.
       </h1>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 relative">
   {/* Central Image */}
-  <div className="absolute inset-0 flex justify-center items-center">
+  {/* <div className="absolute inset-0 flex justify-center items-center">
     <div className="relative">
       <img
         src="src/assets/yoga.svg"
@@ -123,7 +130,7 @@ const Home = () => {
   </div>
 
   {/* Top Row: Cards 1, 2, 3 */}
-  <div className='flex-rows-3'>
+  {/* <div className='flex-rows-3'>
   <div className="flex flex-col items-center text-center">
     <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4">
       <img src="src/assets/pw.svg" alt="Personalized Wellness" className="w-24 h-24" />
@@ -149,10 +156,10 @@ const Home = () => {
     <h3 className="text-xl font-bold mb-2">Holistic Healing</h3>
     <p className="text-gray-700">Fix the root problem for long-lasting health.</p>
   </div>
-  </div>
+  </div> */}
 
   {/* Bottom Row: Cards 4, 5, 6 */}
-  <div className="flex flex-col items-center text-center">
+  {/* <div className="flex flex-col items-center text-center">
     <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4">
       <img src="src/assets/pw.svg" alt="Personalized Wellness" className="w-24 h-24" />
     </div>
@@ -160,17 +167,17 @@ const Home = () => {
     <p className="text-gray-700">
       Get treatments tailored just for you based on your individual doshas (body type).
     </p>
-  </div>
+  </div> */}
 
-  <div className="flex flex-col items-center text-center">
+  {/* <div className="flex flex-col items-center text-center">
     <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4">
       <img src="src/assets/fp.svg" alt="Focus on Prevention" className="w-24 h-24" />
     </div>
     <h3 className="text-xl font-bold mb-2">Focus on Prevention</h3>
     <p className="text-gray-700">Stop problems even before they start.</p>
-  </div>
+  </div> */}
 
-  <div className="flex flex-col items-center text-center">
+  {/* <div className="flex flex-col items-center text-center">
     <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4">
       <img src="src/assets/hh.svg" alt="Holistic Healing" className="w-24 h-24" />
     </div>
@@ -178,10 +185,10 @@ const Home = () => {
     <p className="text-gray-700">Fix the root problem for long-lasting health.</p>
   </div>
   </div>
-  </div>
+  </div> */}
 
   {/* Unique Ayurveda Section */}
-<div className="bg-yelow py-16 px-8">
+<div className="bg-yelow py-16 px-8 pt-80">
   <h2 className="text-5xl text-center font-bold text-demo mb-14 underline decoration-gre">
     What sets Ayurvedic consultations apart?
   </h2>
@@ -389,7 +396,7 @@ const Home = () => {
 
 
       {/*Ayurvedic Experts */}
-      <div className="bg-white h-screen py-16 px-8 relative">
+      <div className="bg-white py-4 pt-20 pb-8 px-8 relative">
   <h2 className="text-5xl text-center font-bold text-demo mb-14 underline decoration-gre">
     Meet Our Ayurveda Experts
   </h2>
@@ -521,7 +528,7 @@ const Home = () => {
         ></div>
     ))}
 </div>
-<div className="flex justify-center mt-8 mb-4">
+<div className="flex justify-center mt-8">
     <button className="px-6 py-3 text-xl border border-green-600 bg-gren font-semibold text-demo rounded-md hover:bg-green-100 flex items-center">
         Find more experts
         <svg
@@ -546,42 +553,23 @@ const Home = () => {
 </div>
 </section>
 </div>
-
-
-    <div className="bg-yelow py-10">
-    <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-green-800">Amrutam Home App</h1>
-        <p className="text-lg text-center text-gray-600 mt-4">
-            The Amrutam Home App is your one-stop app for all things Ayurveda! Apart from mimicking the significant characteristics of our website, this app offers a wide range of additional features.
-        </p>
-        <p className="text-xl text-center font-semibold text-green-700 mt-6">
-            Get A Diet & Lifestyle Consultation With Ayurvedic Experts Across The Globe
-        </p>
-        <div className="flex justify-center mt-8">
-            <img
-                src="your-image-source.png"
-                alt="Amrutam Home App"
-                className="max-w-xs md:max-w-md"
-            />
-        </div>
-        <div className="flex justify-center mt-8 space-x-4">
-            <a
-                href="#"
-                className="bg-black text-white px-4 py-2 rounded-md flex items-center space-x-2"
-            >
-                <img src="play-store-icon.png" alt="Play Store" className="h-5" />
-                <span>Get it on Google Play</span>
-            </a>
-            <a
-                href="#"
-                className="bg-black text-white px-4 py-2 rounded-md flex items-center space-x-2"
-            >
-                <img src="app-store-icon.png" alt="App Store" className="h-5" />
-                <span>Download on the App Store</span>
-            </a>
-        </div>
+    {/* App section */}
+    <div className="h-screen w-full">
+    <img
+        src="src\assets\app.svg.png"
+        alt="Full Screen Background"
+        className="w-full h-full object-cover"
+    />
     </div>
-</div>
+    {/* Footer section */}
+    <div className="h-screen w-full">
+    <img
+        src="src\assets\footer.png"
+        alt="Full Screen Background"
+        className="w-full h-full object-cover"
+    />
+    </div>
+
 
 
 </div>
