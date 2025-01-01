@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Hero />
       <View/>
-      <Home />
+{/*       <Home /> */}
       
     </>
   );
